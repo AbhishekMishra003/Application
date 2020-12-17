@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title></title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+ <script src="https://kit.fontawesome.com/b10665a0f2.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="mystyle1.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+ <script src="file2.js"></script>
+ <script src="file3.js"></script>
+</head>
+<body>
+	<h1 class="text-center">Login Page</h1>
+	<form action="page2.htm" class="text-center m-5" target="_blank">
+		<input type="username" id="user" placeholder="Username or Email" required><br>
+		<input type="password" id="password" placeholder="Password" required><br>
+		<button class="bttn" onclick="login1()">Login</button>
+	</form>
+	<div class="text-center">
+	    <button class="btn btn-primary text-white" data-toggle="modal" data-target="#modal">SignUp</button>
+    </div>
+    <div class="modal fade" id="modal" role="dialog">
+    	<div class="modal-md modal-dialog">
+    		<div class="modal-content">
+    			<form class="text-center p-5" action="login_page.htm">
+                    <h2>SignUp</h2>
+         			 <label for="Username">Enter Username: </label>
+		 			 <input type="username" id="userId" placeholder="Username" required><br>
+         			 <label for="Password">Enter Password:</label>
+		 			 <input type="password" id="password1" placeholder="Password" required><br>
+        			 <label for="Email">Enter Email(Use@):</label>
+					 <input type="email" id="email" placeholder="Email" required><br>
+         			 <p>I have read all the<a href="#">Tearms and Conditions</a></p>
+					 <button onclick="store()">Submit</button>
+	            </form>
+    	    </div>
+    	</div>
+    </div>
+</body>
+</html>

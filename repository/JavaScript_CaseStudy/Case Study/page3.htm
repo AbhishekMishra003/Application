@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>ShoppingBee</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+ <link rel="stylesheet" href="mystyle2.css">
+ <script src="https://kit.fontawesome.com/b10665a0f2.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+ <script src="file3.js"></script>
+ <script src="file2.js"></script>
+</head>
+<body>
+	<ul class="text-primary float-right a">
+		<li onclick="cart()" class="listt"><i class="fas fa-shopping-cart px-2"></i><u>My cart</u></li>
+		<li onclick="logout1()" class="listt"><i class="fas fa-sign-out-alt px-2"></i><u>Logout</u></li>
+	</ul><br><br>
+	<table class="container-fluid border">
+		<tr class="text-center bg-danger">
+            <th class="border" onclick="home()"><a href="#">Home</a></th>
+			<th class="border" onclick="data1_()"><a href="#">Electronics</a></th>
+			<th class="border" onclick="data2_()"><a href="#">Books</a></th>
+			<th class="border" onclick="data3_()"><a href="#">Sports</a></th>
+			<th class="border" onclick="data4_()"><a href="#">Clothing</a></th>
+		</tr>
+	</table>
+	<div class="col" id="dem">
+		<div class="row">
+			<div class="col-sm-12 col-xl-3 col-lg-4 bor" id="list">
+				<div class="list-group my-3 mx-0" id="brand">
+                    <span class="list-group-item bg-primary">Brand</span>
+                </div>
+                <div class="list-group my-3 mx-0">
+					<span class="list-group-item bg-primary">Price</span>
+					<span class="list-group-item listt" onclick="filterp1()">[ ] 0-499</span>
+					<span class="list-group-item listt" onclick="filterp2()">[ ] 500-999</span>
+					<span class="list-group-item listt" onclick="filterp3()"><u class="text-primary">x </u>1000-2999</span>
+					<span class="list-group-item listt" onclick="filterp4()"><u class="text-primary">x </u>over 3000</span>
+				</div>
+			</div>
+			<div class=" col-sm-12 col-xl-9 col-lg-8">
+                <span id="demo" class = "d-flex flex-wrap"></span>
+                <span id="demo1" class = "d-flex flex-wrap"></span>
+                <span id="demo2" class = "d-flex flex-wrap"></span>
+                <span id="demo3" class = "d-flex flex-wrap"></span>
+                <span id="demo4" class = "d-flex flex-wrap"></span>
+            </div>	
+		</div>
+    </div>
+</body>
+</html>

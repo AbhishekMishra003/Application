@@ -1,0 +1,56 @@
+[
+  {
+    "userId": 1,
+    "id": 1,
+    "name": "Harddisk 2GB",
+    "rupee": "Rs 8,499.00",
+    "cost":8499,
+    "company":"Sony",
+    "url": "6.png"
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "name": "CPU",
+    "rupee": "Rs 6,499.00",
+    "cost":6499,
+    "company":"hp",
+    "url": "cpu.jpg"
+  },
+    {
+    "userId": 1,
+    "id": 3,
+    "name": "Headphone",
+    "rupee": "Rs 2,999.00",
+    "cost":2999,
+    "company":"Sony",
+    "url": "headphone.jpg"
+  },
+    {
+    "userId": 1,
+    "id": 4,
+    "name": "laptop",
+    "rupee": "Rs 99,499.00",
+    "cost":99499,
+    "company":"apple",
+    "url": "laptop.jpg"
+  },
+    {
+    "userId": 1,
+    "id": 5,
+    "name": "laptop",
+    "rupee": "Rs 64,499.00",
+    "cost":64499,
+    "company":"dell",
+    "url": "laptop1.jpg"
+  },
+    {
+    "userId": 1,
+    "id": 6,
+    "name": "Mouse",
+    "rupee": "Rs 21,199.00",
+    "cost":21199,
+    "company":"apple",
+    "url": "mouse_keyboard.jpg"
+  }
+]

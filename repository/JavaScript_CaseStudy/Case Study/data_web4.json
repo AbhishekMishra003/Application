@@ -1,0 +1,56 @@
+[
+{
+    "userId": 4,
+    "id": 1,
+    "name": "T-Shirt",
+    "rupee": "Rs 499.00",
+    "cost":499,
+    "company":"Levis",
+    "url": "t-shirt1.jpg"
+  },
+    {
+    "userId": 4,
+    "id": 2,
+    "name": "T-Shirt",
+    "rupee": "Rs 1,499.00",
+    "cost":1499,
+    "company":"Levis",
+    "url": "t-shirt2.jpg"
+  },
+    {
+    "userId": 4,
+    "id": 3,
+    "name": "Shirt",
+    "rupee": "Rs 2,599.00",
+    "cost":2599,
+    "company":"AllenSolly",
+    "url": "shirt.jpg"
+  },
+    {
+    "userId": 4,
+    "id": 4,
+    "name": "Blue Jeans",
+    "rupee": "Rs 3,499.00",
+    "cost":3499,
+    "company":"Parada",
+    "url": "jeans.jpg"
+  },
+    {
+    "userId": 4,
+    "id": 5,
+    "name": "Jacket",
+    "rupee": "Rs 5,499.00",
+    "cost":5499,
+    "company":"Parada",
+    "url": "jacket.jpg"
+  },
+    {
+    "userId": 4,
+    "id": 6,
+    "name": "T-Shirt",
+    "rupee": "Rs 4,499.00",
+    "cost":4499,
+    "company":"AllenSolly",
+    "url": "t-shirt3.jpg"
+  } 
+]

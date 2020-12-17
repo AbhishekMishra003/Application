@@ -1,0 +1,56 @@
+[
+{
+    "userId": 2,
+    "id":1,
+    "name": "Bible",
+    "rupee":"Rs 1,299.00",
+    "cost":1299,
+    "company":"HarperCollins",
+    "url": "bible.jpg"
+  },
+    {
+    "userId": 2,
+    "id":2,
+    "name": "Britaniaca",
+    "rupee": "Rs 4,499.00",
+    "cost":4499,
+    "company":"jaico",
+    "url": "britanica.jpg"
+  },
+     {
+    "userId": 2,
+    "id":3,
+    "name": "Book Collection",
+    "rupee": "Rs 2,499.00",
+    "cost":2499,
+    "company":"jaico",
+    "url": "book_collection.jpg"
+  },
+     {
+    "userId": 2,
+    "id":4,
+    "name": "Notebook",
+    "rupee": "Rs 899.00",
+    "cost":899,
+    "company":"HarperCollins",
+    "url": "notebook.jpg"
+  },
+     {
+    "userId": 2,
+    "id":5,
+    "name": "Notebook",
+    "rupee": "Rs 1,099.00",
+    "cost":1099,
+    "company":"arihant",
+    "url": "notebook1.jpg"
+  },
+     {
+    "userId": 2,
+    "id":6,
+    "name": "Old books",
+    "rupee": "Rs 18,499.00",
+    "cost":18499,
+    "company":"jaico",
+    "url": "old_books.jpg"
+  }
+]
